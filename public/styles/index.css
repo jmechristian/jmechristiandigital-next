@@ -7,8 +7,8 @@ html {
 }
 
 .headline-text {
-  font-size: 6rem;
-  line-height: 6.5rem;
+  font-size: 5.5rem;
+  line-height: 5.75rem;
 }
 
 .project-number {
@@ -28,12 +28,6 @@ html {
   }
 }
 
-.rotate-90 {
-  transform: rotate(90deg);
-  position: fixed;
-  transform-origin: 100% 100%;
-}
-
 .h-96 {
   height: 24rem;
 }
@@ -48,6 +42,35 @@ html {
     #ffffff 90%,
     #ffffff 100%
   );
+}
+
+.bg-img-left {
+  background-image: url('/images/bg-hero.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 50%;
+}
+
+.bg-gradient {
+  background: linear-gradient(#0da2db, #0fba9e);
+  opacity: 0.78;
+}
+
+.logo-middle {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-services {
+  position: absolute;
+  bottom: 55px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  z-index: 11;
 }
 
 /* purgecss end ignore */

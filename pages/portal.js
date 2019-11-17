@@ -1,7 +1,13 @@
 import React from 'react';
+import Header from '../components/_App/Header';
 
 const portal = () => {
-  return <div>Portal</div>;
+  return (
+    <>
+      <Header />
+      <div>Portal</div>
+    </>
+  );
 };
 
 export default portal;

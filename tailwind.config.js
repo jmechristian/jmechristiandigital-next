@@ -3,6 +3,9 @@ module.exports = {
     container: {
       center: true
     },
+    zIndex: {
+      '-1': '-1'
+    },
     fontFamily: {
       display: ['Inter', 'sans-serif'],
       body: ['Inter', 'sans-serif']

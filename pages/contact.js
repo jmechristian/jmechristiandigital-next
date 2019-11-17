@@ -1,11 +1,15 @@
 import React from 'react';
 import ContactForm from '../components/Contact/ContactForm';
+import Header from '../components/_App/Header';
 
 const contact = () => {
   return (
-    <div className='lg:mt-16'>
-      <ContactForm />
-    </div>
+    <>
+      <Header />
+      <div className='lg:mt-16'>
+        <ContactForm />
+      </div>
+    </>
   );
 };
 
