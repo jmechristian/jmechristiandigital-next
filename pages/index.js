@@ -1,10 +1,7 @@
-import Nav from '../components/nav'
-
 export default () => (
   <div>
-    <Nav />
-    <div className="hero">
-      <h1 className="title">Next.js + Tailwind css</h1>
+    <div>
+      <h1 className='headline-text text-primary'>Next.js + Tailwind css</h1>
     </div>
   </div>
-)
+);

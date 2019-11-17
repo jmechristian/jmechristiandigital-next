@@ -1,0 +1,56 @@
+@import url('https://rsms.me/inter/inter.css');
+
+/* purgecss start ignore */
+@tailwind base;
+html {
+  @apply font-body;
+}
+
+.headline-text {
+  font-size: 9rem;
+  line-height: 9.25rem;
+}
+
+.project-number {
+  font-size: 13rem;
+  line-height: 14rem;
+}
+
+@media (max-width: 767px) {
+  .headline-text {
+    font-size: 4rem;
+    line-height: 4.5rem;
+  }
+
+  .project-number {
+    font-size: 10rem;
+    line-height: 11rem;
+  }
+}
+
+.rotate-90 {
+  transform: rotate(90deg);
+  position: fixed;
+  transform-origin: 100% 100%;
+}
+
+.h-96 {
+  height: 24rem;
+}
+
+#delivery {
+  background: linear-gradient(
+    to bottom,
+    #ffffff 0%,
+    #ffffff 10%,
+    #59c9dc 10%,
+    #59c9dc 90%,
+    #ffffff 90%,
+    #ffffff 100%
+  );
+}
+
+/* purgecss end ignore */
+
+@tailwind components;
+@tailwind utilities;

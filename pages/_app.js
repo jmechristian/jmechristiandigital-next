@@ -1,12 +1,26 @@
-import '../styles/index.css'
+import '../public/styles/index.css';
 
-import React from 'react'
-import App from 'next/app'
+import React from 'react';
+import App from 'next/app';
+import Layout from '../components/_App/Layout';
 
 export default class MyApp extends App {
-  render() {
-    const { Component, pageProps } = this.props
+  static async getInitialProps({ Component, ctx }) {
+    let pageProps = {};
 
-    return <Component {...pageProps} />
+    if (Component.getInitialProps) {
+      pageProps = await Component.getInitialProps(ctx);
+    }
+
+    return { pageProps };
+  }
+
+  render() {
+    const { Component, pageProps } = this.props;
+    return (
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+    );
   }
 }
