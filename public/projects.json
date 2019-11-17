@@ -1,0 +1,98 @@
+[
+  {
+    "ProjectID": "01",
+    "projectTitle": "Project Title",
+    "projectColor": "#090E24",
+    "problem": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean cursus felis non massa feugiat, sed euismod elit egestas. Proin non elementum orci. Integer ultricies eros sed orci tincidunt, vitae faucibus augue luctus. Donec vitae consectetur mi.",
+    "solution": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean cursus felis non massa feugiat, sed euismod elit egestas. Proin non elementum orci. Integer ultricies eros sed orci tincidunt, vitae faucibus augue luctus. Donec vitae consectetur mi.",
+    "featureImage": "https://via.placeholder.com/700x500",
+    "callout": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean cursus felis non massa feugiat, sed euismod elit egestas.",
+    "designImage": [
+      "https://via.placeholder.com/400x250",
+      "https://via.placeholder.com/400x250",
+      "https://via.placeholder.com/400x250",
+      "https://via.placeholder.com/400x250",
+      "https://via.placeholder.com/400x250",
+      "https://via.placeholder.com/400x250"
+    ],
+    "colors": ["#45tggh", "#ff4433", "#yt7789", "#ffgb67"],
+    "delivery": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean cursus felis non massa feugiat, sed euismod elit egestas. Proin non elementum orci. Integer ultricies eros sed orci tincidunt, vitae faucibus augue luctus. Donec vitae consectetur mi.",
+    "mobileImage": [
+      "https://via.placeholder.com/250x450",
+      "https://via.placeholder.com/250x450"
+    ],
+    "finalImage": "https://via.placeholder.com/1200x650"
+  },
+  {
+    "ProjectID": "02",
+    "projectTitle": "Project Title",
+    "projectColor": "#ed4010",
+    "problem": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean cursus felis non massa feugiat, sed euismod elit egestas. Proin non elementum orci. Integer ultricies eros sed orci tincidunt, vitae faucibus augue luctus. Donec vitae consectetur mi.",
+    "solution": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean cursus felis non massa feugiat, sed euismod elit egestas. Proin non elementum orci. Integer ultricies eros sed orci tincidunt, vitae faucibus augue luctus. Donec vitae consectetur mi.",
+    "featureImage": "https://via.placeholder.com/700x500",
+    "callout": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean cursus felis non massa feugiat, sed euismod elit egestas.",
+    "designImage": [
+      "https://via.placeholder.com/400x250",
+      "https://via.placeholder.com/400x250",
+      "https://via.placeholder.com/400x250",
+      "https://via.placeholder.com/400x250",
+      "https://via.placeholder.com/400x250",
+      "https://via.placeholder.com/400x250"
+    ],
+    "colors": ["#45tggh", "#ff4433", "#yt7789", "#ffgb67"],
+    "delivery": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean cursus felis non massa feugiat, sed euismod elit egestas. Proin non elementum orci. Integer ultricies eros sed orci tincidunt, vitae faucibus augue luctus. Donec vitae consectetur mi.",
+    "mobileImage": [
+      "https://via.placeholder.com/250x450",
+      "https://via.placeholder.com/250x450"
+    ],
+    "finalImage": "https://via.placeholder.com/1200x650"
+  },
+  {
+    "ProjectID": "03",
+    "projectTitle": "Project Title",
+    "projectColor": "#F3EE1B",
+    "problem": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean cursus felis non massa feugiat, sed euismod elit egestas. Proin non elementum orci. Integer ultricies eros sed orci tincidunt, vitae faucibus augue luctus. Donec vitae consectetur mi.",
+    "solution": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean cursus felis non massa feugiat, sed euismod elit egestas. Proin non elementum orci. Integer ultricies eros sed orci tincidunt, vitae faucibus augue luctus. Donec vitae consectetur mi.",
+    "featureImage": "https://via.placeholder.com/700x500",
+    "callout": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean cursus felis non massa feugiat, sed euismod elit egestas.",
+    "designImage": [
+      "https://via.placeholder.com/400x250",
+      "https://via.placeholder.com/400x250",
+      "https://via.placeholder.com/400x250",
+      "https://via.placeholder.com/400x250",
+      "https://via.placeholder.com/400x250",
+      "https://via.placeholder.com/400x250"
+    ],
+    "colors": ["#45tggh", "#ff4433", "#yt7789", "#ffgb67"],
+    "delivery": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean cursus felis non massa feugiat, sed euismod elit egestas. Proin non elementum orci. Integer ultricies eros sed orci tincidunt, vitae faucibus augue luctus. Donec vitae consectetur mi.",
+    "mobileImage": [
+      "https://via.placeholder.com/250x450",
+      "https://via.placeholder.com/250x450"
+    ],
+    "finalImage": "https://via.placeholder.com/1200x650"
+  },
+  {
+    "ProjectID": "04",
+    "projectTitle": "Project Title",
+    "projectColor": "#59C9DC",
+    "problem": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean cursus felis non massa feugiat, sed euismod elit egestas. Proin non elementum orci. Integer ultricies eros sed orci tincidunt, vitae faucibus augue luctus. Donec vitae consectetur mi.",
+    "solution": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean cursus felis non massa feugiat, sed euismod elit egestas. Proin non elementum orci. Integer ultricies eros sed orci tincidunt, vitae faucibus augue luctus. Donec vitae consectetur mi.",
+    "featureImage": "https://via.placeholder.com/700x500",
+    "callout": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean cursus felis non massa feugiat, sed euismod elit egestas.",
+    "designImage": [
+      "https://via.placeholder.com/400x250",
+      "https://via.placeholder.com/400x250",
+      "https://via.placeholder.com/400x250",
+      "https://via.placeholder.com/400x250",
+      "https://via.placeholder.com/400x250",
+      "https://via.placeholder.com/400x250"
+    ],
+    "colors": ["#45tggh", "#ff4433", "#yt7789", "#ffgb67"],
+    "delivery": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean cursus felis non massa feugiat, sed euismod elit egestas. Proin non elementum orci. Integer ultricies eros sed orci tincidunt, vitae faucibus augue luctus. Donec vitae consectetur mi.",
+    "mobileImage": [
+      "https://via.placeholder.com/250x450",
+      "https://via.placeholder.com/250x450"
+    ],
+    "finalImage": "https://via.placeholder.com/1200x650"
+  }
+]

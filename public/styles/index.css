@@ -7,8 +7,8 @@ html {
 }
 
 .headline-text {
-  font-size: 5.5rem;
-  line-height: 5.75rem;
+  font-size: 4.75rem;
+  line-height: 5rem;
 }
 
 .project-number {
@@ -18,8 +18,8 @@ html {
 
 @media (max-width: 767px) {
   .headline-text {
-    font-size: 4rem;
-    line-height: 4.5rem;
+    font-size: 4.75rem;
+    line-height: 5rem;
   }
 
   .project-number {
@@ -56,6 +56,10 @@ html {
 .bg-gradient {
   background: linear-gradient(#0da2db, #0fba9e);
   opacity: 0.78;
+}
+
+.bg-gradient-menu {
+  background: linear-gradient(#0da2db, #0fba9e);
 }
 
 .logo-middle {
