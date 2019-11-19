@@ -50,7 +50,7 @@
   {
     "ProjectID": "03",
     "projectTitle": "Project Title",
-    "projectColor": "#F3EE1B",
+    "projectColor": "#0fba9e",
     "problem": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean cursus felis non massa feugiat, sed euismod elit egestas. Proin non elementum orci. Integer ultricies eros sed orci tincidunt, vitae faucibus augue luctus. Donec vitae consectetur mi.",
     "solution": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean cursus felis non massa feugiat, sed euismod elit egestas. Proin non elementum orci. Integer ultricies eros sed orci tincidunt, vitae faucibus augue luctus. Donec vitae consectetur mi.",
     "featureImage": "https://via.placeholder.com/700x500",
@@ -74,7 +74,7 @@
   {
     "ProjectID": "04",
     "projectTitle": "Project Title",
-    "projectColor": "#59C9DC",
+    "projectColor": "#0da2db",
     "problem": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean cursus felis non massa feugiat, sed euismod elit egestas. Proin non elementum orci. Integer ultricies eros sed orci tincidunt, vitae faucibus augue luctus. Donec vitae consectetur mi.",
     "solution": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean cursus felis non massa feugiat, sed euismod elit egestas. Proin non elementum orci. Integer ultricies eros sed orci tincidunt, vitae faucibus augue luctus. Donec vitae consectetur mi.",
     "featureImage": "https://via.placeholder.com/700x500",

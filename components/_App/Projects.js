@@ -8,6 +8,8 @@ const Projects = ({ projects }) => {
         <ProjectItem
           projectNumber={project.ProjectID}
           projectColor={project.projectColor}
+          key={project._id}
+          projectTitle={project._id}
         />
       ))}
     </div>

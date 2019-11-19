@@ -18,8 +18,7 @@ const Home = ({ projects }) => (
 );
 
 Home.getInitialProps = async () => {
-  const url = 'http://localhost:3000/api/projects';
-  const response = await axios.get(url);
+  const response = await axios.get('http://localhost:3000/api/projects');
   return { projects: response.data };
 };
 
