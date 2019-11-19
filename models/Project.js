@@ -28,7 +28,7 @@ const ProjectSchema = new mongoose.Schema({
     type: [String]
   },
   colors: {
-    type: String
+    type: [String]
   },
   delivery: {
     type: String

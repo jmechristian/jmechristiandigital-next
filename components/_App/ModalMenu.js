@@ -9,7 +9,7 @@ const ModalMenu = props => {
       className='flex flex-col bg-gradient-menu w-screen h-screen justify-center absolute p-8 container lg:w-1/2 lg:p-16'
       style={{ zIndex: '45' }}
     >
-      <div>
+      <div className='mb-4'>
         <button className='relative' onClick={() => props.closeModal(false)}>
           <FontAwesomeIcon icon={faTimes} size='3x' color='#ed4010' />
         </button>

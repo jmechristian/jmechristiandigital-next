@@ -9,7 +9,8 @@ const Projects = ({ projects }) => {
           projectNumber={project.ProjectID}
           projectColor={project.projectColor}
           key={project._id}
-          projectTitle={project._id}
+          projectTitle={project.projectTitle}
+          id={project._id}
         />
       ))}
     </div>
