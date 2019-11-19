@@ -12,7 +12,7 @@ const HeroHeader = () => {
   return (
     <>
       {open && <ModalMenu closeModal={closeModal} />}
-      <nav className='flex items-center justify-between flex-wrap bg-transparent py-6 w-full mt-4 container'>
+      <nav className='flex items-center justify-between flex-wrap bg-transparent py-6 w-full mt-4 container px-6 lg:px-0'>
         <div>
           <Link href='/'>
             <a>
