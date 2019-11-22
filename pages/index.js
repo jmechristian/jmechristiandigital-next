@@ -11,7 +11,7 @@ const Home = ({ projects }) => (
       <HeroLeft />
       <HeroRight />
     </div>
-    <div className='mt-16'>
+    <div className='my-16'>
       <Projects projects={projects} />
     </div>
   </>

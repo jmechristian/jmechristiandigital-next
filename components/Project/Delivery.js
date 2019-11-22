@@ -2,7 +2,7 @@ import React from 'react';
 
 const Delivery = ({ delivery, mobileImage, finalImage }) => {
   return (
-    <section id='delivery'>
+    <section id='delivery' className='mb-12'>
       <div className='flex-col mb-4 mt-0 lg:my-8'>
         <div className='flex items-end justify-around container lg:px-0 px-6 pt-8'>
           <div className='flex-col flex w-full md:w-5/12 mr-4 mb-0 lg:my-4'>

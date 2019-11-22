@@ -5,7 +5,7 @@ import CTA from './CTA';
 
 const Footer = () => {
   return (
-    <section id='footer' className='mt-16'>
+    <section id='footer'>
       <CTA />
       <FooterMenu />
     </section>
