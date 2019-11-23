@@ -34,7 +34,7 @@ const FooterMenu = () => {
               className='mr-2'
               size='lg'
             />
-            <Link href='/portal'>
+            <Link href='/portalhome'>
               <a>Client Portal</a>
             </Link>
           </div>

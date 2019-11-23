@@ -1,8 +1,40 @@
-import React from 'react';
+import React, { useState } from 'react';
+import axios from 'axios';
+import { handleLogin } from '../../utils/auth';
+import { DotLoader } from 'react-spinners';
+
+const INITIAL_USER = {
+  email: '',
+  password: ''
+};
 
 const LoginForm = () => {
+  const [user, setUser] = useState(INITIAL_USER);
+  const [loading, setLoading] = useState(false);
+
+  function handleChange(event) {
+    const { name, value } = event.target;
+    setUser(prevState => ({ ...prevState, [name]: value }));
+  }
+
+  async function handleSubmit(event) {
+    event.preventDefault();
+
+    try {
+      setLoading(true);
+      const url = 'http://localhost:3000/api/login';
+      const payload = { ...user };
+      const response = await axios.post(url, payload);
+      handleLogin(response.data);
+    } catch (error) {
+      catchErrors(error, setError);
+    } finally {
+      setLoading(false);
+    }
+  }
+
   return (
-    <form className='w-full'>
+    <form onSubmit={handleSubmit} className='w-full'>
       <div className='flex flex-wrap -mx-3 mb-6'>
         <div className='w-full px-3 mb-2 md:mb-0'>
           <label className='block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2'>
@@ -13,6 +45,8 @@ const LoginForm = () => {
             id='grid-first-name'
             type='email'
             name='email'
+            value={user.email}
+            onChange={handleChange}
             required={true}
           />
         </div>
@@ -27,12 +61,20 @@ const LoginForm = () => {
             name='password'
             type='password'
             placeholder='Password'
+            value={user.password}
+            onChange={handleChange}
           />
         </div>
       </div>
       <button className='bg-primary hover:bg-lowlight text-white hover:text-primary py-2 px-4'>
         Let's Get To Work
       </button>
+      <DotLoader
+        loading={loading}
+        color={'#0fba9e'}
+        size={150}
+        sizeUnit={'px'}
+      />
     </form>
   );
 };

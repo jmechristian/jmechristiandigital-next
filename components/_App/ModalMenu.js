@@ -15,7 +15,7 @@ const ModalMenu = props => {
         </button>
       </div>
       <div className='text-white font-bold text-6xl flex w-full leading-tight mb-6'>
-        <Link href='/portal'>
+        <Link href='/portalhome'>
           <a>Client Portal</a>
         </Link>
       </div>

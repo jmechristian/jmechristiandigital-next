@@ -5,13 +5,13 @@ import DesignPortal from '../components/Portal/DesignPortal';
 import DeliveryPortal from '../components/Portal/DeliveryPortal';
 import Stage from '../components/Portal/Stage';
 
-const PortalHome = () => {
+const PortalHome = props => {
   return (
     <>
       <Header />
       <div className='container mt-8 lg:mt-12 lg:py-12 md:px-4 flex flex-wrap justify-center'>
-        <div className='font-extrabold text-3xl my-8 text-center w-full'>
-          Project Status
+        <div className='font-extrabold text-3xl my-12 text-center w-full'>
+          Welcome to your portal, {props.user.name}
         </div>
         <Stage
           stage='Research'
