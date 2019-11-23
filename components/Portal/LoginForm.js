@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { handleLogin } from '../../utils/auth';
-import { DotLoader } from 'react-spinners';
+import { PulseLoader } from 'react-spinners';
 
 const INITIAL_USER = {
   email: '',
@@ -66,15 +66,21 @@ const LoginForm = () => {
           />
         </div>
       </div>
-      <button className='bg-primary hover:bg-lowlight text-white hover:text-primary py-2 px-4'>
-        Let's Get To Work
-      </button>
-      <DotLoader
-        loading={loading}
-        color={'#0fba9e'}
-        size={150}
-        sizeUnit={'px'}
-      />
+      <div className='flex items-center'>
+        <button
+          className='bg-primary hover:bg-lowlight text-white hover:text-primary py-2 px-4 mr-4'
+          disabled={loading}
+        >
+          Let's Get To Work
+        </button>
+        <PulseLoader
+          loading={loading}
+          color={'#0fba9e'}
+          size={15}
+          sizeUnit={'px'}
+          margin={'2px'}
+        />
+      </div>
     </form>
   );
 };

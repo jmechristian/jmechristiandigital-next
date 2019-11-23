@@ -16,6 +16,13 @@ export default class MyApp extends App {
       pageProps = await Component.getInitialProps(ctx);
     }
 
+    if (token) {
+      const portalRoute = ctx.pathname === '/portal';
+      if (portalRoute) {
+        redirectUser(ctx, '/portalhome');
+      }
+    }
+
     if (!token) {
       const isProtectedRoute = ctx.pathname === '/portalhome';
       if (isProtectedRoute) {

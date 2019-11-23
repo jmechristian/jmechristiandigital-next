@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import axios from 'axios';
 import { handleLogin } from '../../utils/auth';
+import { PulseLoader } from 'react-spinners';
 
 const INITIAL_USER = {
   name: '',
@@ -11,6 +12,7 @@ const INITIAL_USER = {
 
 const SignUpForm = () => {
   const [user, setUser] = useState(INITIAL_USER);
+  const [loading, setLoading] = useState(false);
 
   const handleChange = event => {
     const { name, value } = event.target;
@@ -21,6 +23,7 @@ const SignUpForm = () => {
     event.preventDefault();
 
     try {
+      setLoading(true);
       const payload = { ...user };
       const response = await axios.post(
         'http://localhost:3000/api/signup',
@@ -29,6 +32,8 @@ const SignUpForm = () => {
       handleLogin(response.data);
     } catch (error) {
       console.error(error);
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -81,9 +86,18 @@ const SignUpForm = () => {
           />
         </div>
       </div>
-      <button className='bg-primary hover:bg-lowlight text-white hover:text-primary py-2 px-4'>
-        Sign Up User
-      </button>
+      <div className='flex items-center'>
+        <button className='bg-primary hover:bg-lowlight text-white hover:text-primary py-2 px-4 mr-4'>
+          Sign Up User
+        </button>
+        <PulseLoader
+          loading={loading}
+          color={'#0fba9e'}
+          size={15}
+          sizeUnit={'px'}
+          margin={'2px'}
+        />
+      </div>
     </form>
   );
 };
